@@ -1,0 +1,17 @@
+DAY 3: TCP/IP & OSI models
+	PROTOCOLS: set of rules that determine how data should be communicated between devices.
+	STANDARD: agreed specifications upon which protocols should work.
+	ARPA: Advanced Research Project Agency. They created the ARPANET.
+	IEEE: Institute of Electrical and Electronic Engineering.
+		this body also define standards.
+		they design some of the standards such as
+		Ethernet(802.3)
+		Wi-fi(802.11)
+	IETF: Internet Engineering Task Force.
+	TCP/IP MODEL: TCP stands for Transmission Control Protocol. under this we have the following layers:
+			Application, Transport, Network/Internet, Datalink, Physical.
+	ISO: International Organization of Standardization.
+	OSI MODEL: OSI stands for Open Systems Interconnection. Under this we have the following layers:
+			Application, Presentation, Session, Transport, Network, Datalink, Physical.
+
+	transfer of information between this layers happen by encapsulation and decapsulation. 

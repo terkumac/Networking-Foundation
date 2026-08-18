@@ -1,0 +1,5 @@
+#Day 2: INTEREFACES AND CABLES
+- Copper cables(UTP/STP):shielded and unshielded twisted pairs. Most common for LANs. uses electrical signals.
+- Fiber Optic cables: uses light to transmit data. used for long distances and high bandwidth. Immune to electro magnetic 		      interference(EMI)
+- RJ45 connectors: standard connector for ethernet copper cables.
+- Ethernet standards: outlines the speeds and distances for different categories of cables(e.g.,CAT5e,CAT6)

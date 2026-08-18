@@ -1,0 +1,28 @@
+DAY 4: INTRO TO THE CLI
+CISCO IOS is the operating system used on CISCO devices.
+CLI stands for Command Line Interface. it is used to configure CISCO devices
+GUI stands for Graphical User Interface. can be used to configure firewalls.
+
+To configure a device, you need to connect your PC to the console port of the device and configure on the PC. You can also
+configure remotely. you make use of PUTTY to do this.
+on the devices there ports like: RJ45, USB Mini-B etc.
+
+User EXEC mode allows users to look at things but doesn't allow them to make changes. it shows he device name using the greater than sign(ROUTER>).
+
+Privilege EXEC mode allows users to view and make changes on device. it shows the device name using the # sign(ROUTER#).
+
+To enter global configuration mode, you can simply type in configure terminal in privilege EXEC mode.
+
+In Global configuration mode you can set passwords using enable password command.
+
+There are two configuration files kept on the device at once:
+1. running-config. the current active configuration file on the device. as you enter commands on the CLI you make changes to the running-config file.
+2. startup-config. the configuration file that will be loaded upon restart of the device.
+
+To save the running config file to make it a startup config file; type in:
+write
+write memory
+copy running-config startup-config
+
+service password-encryption command is used to encrypt password using type 7 encryption.
+for more secure encryption of password we can make use of the enable secret command with makes use of the type 5 encryption.

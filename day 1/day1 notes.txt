@@ -1,0 +1,5 @@
+#Day 1: NETWORK DEVICES OVERVIEW
+	-Clients & Servers: clients request data(PCs, phones), servers provide data (web, email).
+	-Switches: Connect devices within the same local area network(LAN). They use MAC addresses to forward traffic
+	- Routers: Connect different networks together(e.g., your home LAN to the internet). They use IP addresses to route 		   traffic
+	-Firewalls: monitor and control incoming and outgoing network traffic based on predetermined security rules. they 		    act as the barrier between trusted and untrusted networks.
